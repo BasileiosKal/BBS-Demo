@@ -25,7 +25,7 @@ credential = {"name": "Joe",
               "age": 20}
 
 # The frame indicating the parts of the credential to be revealed
-frame = {"name": ""} # will always reveal the name
+frame = {"name": ""} # will only reveal the name
 
 # Sign the credential
 signed_credential = SignJson(key_pair, credential)
