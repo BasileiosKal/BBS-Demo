@@ -13,7 +13,6 @@ with open("./data/credential.json") as credential:
 
 with  open("./data/frame.json") as frame:
     credential_frame = json.load(frame)
-    # revealed_credential_json = json.load(frame)
 
 
 #####################################  Digital Signature #####################################
